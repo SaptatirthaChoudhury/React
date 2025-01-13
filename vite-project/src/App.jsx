@@ -1,8 +1,15 @@
 
+import Chai from "./chai"
+
 function App() {
- 
+const username = "chai aur code"
   return (
-  <h1>React from Vite | Sappto</h1>
+    <>
+      <Chai />
+      <h1>Hello react, {username}</h1>
+      <p>para</p>
+    </>
+
   )
 }
 
